@@ -1,0 +1,67 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background:linear-gradient(rgb(200, 223, 233),rgb(63, 63, 228))
+}
+/* Parent Node (Main Div container)  */
+#Parent{
+    border: black 0.1px solid;
+    margin: 50px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    min-height:500px;
+    max-height: auto;
+} 
+/* heading of project */
+h1{
+    margin-top: 50px;
+    font-size: 50px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* for font Awesome 'List icon' */
+#list{
+    font-size: 100px;
+    color :rgb(87, 187, 226);
+}
+/* TextFeild */
+#textFeild{
+    border-radius: 5px;
+    width: 430px;
+    height: 50px;
+}
+/* Creat Button */
+#btn{
+ background-color:rgb(161, 161, 219);
+ color:black;
+ font-weight:900;
+ border-radius: 5px;
+}
+
+/* button for Delete  */
+.button{
+     color: red;
+     font-size:20px;
+     border: none;
+     
+
+}
+/* Css Properties for New Event  */
+.creatElement{
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(248, 239, 239);
+    border-radius: 20px;
+}
+/* Button for Completion Status */
+.btn{
+    color: green;
+    font-size: 20px;
+    margin-left: 20px;
+}
